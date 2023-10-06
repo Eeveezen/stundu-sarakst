@@ -1,36 +1,57 @@
 import Diena from "./Diena";
 
 function App() {
-  const pirmdienasStundas = [
-    "datortikli",
-    "datortikli",
-    "programmesana",
-    "programmesana"
-];
-const otradienasStundas = [
-    "datortikli",
-    "datortikli",
-    "programmesana",
-    "programmesana"
-];
-const tresdienasStundas = [
-    "datortikli",
-    "datortikli",
-    "programmesana",
-    "programmesana"
-];
-const ceturdienasStundas = [
-    "datortikli",
-    "datortikli",
-    "programmesana",
-    "programmesana"
-];
-const piektdienasStundas = [
-    "datortikli",
-    "datortikli",
-    "programmesana",
-    "programmesana"
-];
+
+
+const visuDienuStunduSaraksts = [
+  {
+    diena: "pirmdiena" ,
+    stundas: [
+      "juju" ,
+      "on" ,
+      "that",
+      "beat"
+    ]
+  },
+  {
+    diena: "otrdiena" ,
+    stundas: [
+      "watch me whip" ,
+      "vwatxh mw neinei" ,
+      "watch me whip whip.",
+      "watch me neinie"
+    ]
+  },
+  {
+    diena: "tresdiena" ,
+    stundas: [
+      "Datortikli" ,
+      "datortikli" ,
+      "sistemas prog",
+      "sistemas prog"
+    ]
+  } , 
+  {
+    diena: "ceturdiena" ,
+    stundas: [
+      "sistemu prog" ,
+      "vesture" ,
+      "latv. val.",
+      "ya mum"
+    ]
+  },
+  {
+    diena: "piektdiena" ,
+    stundas: [
+      "your mum" ,
+      "le madre" ,
+      "tava mamma",
+      "ya mum"
+    ]
+  }
+
+]
+
   return (
     <>
     <h1>
